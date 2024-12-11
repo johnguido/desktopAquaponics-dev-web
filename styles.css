@@ -1,0 +1,138 @@
+body {
+    background-color: #fff;
+}
+
+.login-main {
+    border-style: solid;
+    border-color: black;
+    border-width: 8px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    left: 50%;
+    top: 50%;
+    width: 1000px;
+    height: 500px;
+    margin-left: -500px;
+    /* -1/2 width */
+    margin-top: -250px;
+    /* -1/2 height */
+}
+
+.login-inner-one {
+    position: relative;
+    border-style: solid;
+    border-color: #094a12;
+    border-width: 10px;
+    background-color: #fff;
+    height: 425px;
+    width: 500px;
+    margin-top: 25px;
+    margin-left: 25px;
+    font-family: monospace;
+}
+
+.login-inner-two {
+    margin-top: 320px;
+    margin-left: 50px;
+    width: 500px;
+    font-size: 15px;
+    text-overflow: clip;
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+
+.login-logo-text {
+    color:#094a12;
+}
+
+
+.login-header-text {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-style: bold;
+    font-size: 46px;
+    margin-top: 30px;
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+
+.login-form {
+    position: absolute;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.login-bottom {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.login-signin {
+    height: 30px;
+    width: 150px;
+    font-family: monospace;
+}
+
+.login-username {
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: 1px;
+}
+
+.login-username-input {
+    border-style: solid;
+    border-color: #094a12;
+    border-width: 2px;
+    height: 24px;
+}
+
+.login-password-input {
+    border-style: solid;
+    border-color: #094a12;
+    border-width: 2px;
+    height: 24px;
+}
+
+.login-password {
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: 1px;
+}
+
+.login-forgotpassword {
+    cursor: pointer;
+}
+
+.login-noaccount {
+    font-family: monospace;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 300px;
+    cursor: pointer;
+}
+
+.login-logo-text {
+    font-family: monospace;
+}
