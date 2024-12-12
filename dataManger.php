@@ -1,6 +1,0 @@
-<?php
-
-
-echo "desktop aquaponics!";
-
-?>
