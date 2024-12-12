@@ -108,18 +108,17 @@ body {
     border-color: #094a12;
     border-width: 2px;
     height: 24px;
+    margin-right: 100px;
 }
 
 .login-password {
     font-size: 26px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    gap: 100px;
     letter-spacing: 1px;
 }
 
-.login-forgotpassword {
+.login-forgot-password {
     cursor: pointer;
 }
 
