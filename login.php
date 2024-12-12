@@ -22,7 +22,7 @@ $pdo = new PDO($dsn, $user, $pass, $options);
 $phone_number = $_POST['phone_number'];
 $password = $_POST['password'];
 
-$stmt = $pdo->prepare('SELECT * FROM users WHERE 'phone_number';');
+$stmt = $pdo->prepare('SELECT * FROM users WHERE 'phone_number' = ?;');
 $stmt->execute([$phone_number]);
 $user = $stmt->fetch();
 
