@@ -11,10 +11,9 @@ $pass = 'Hoshyblob23!';
 
 $conn = mysqli_connect($host, $user, $pass, $db);
 
-if ($conn -> connect_errno){
-    echo "Error connecting";
-    exit();
-}
+if(mysqli_connect_errno()){  
+    echo mysqli_connect_error();  
+    }  
 
 if ($conn){
     echo "Connected to database!";
@@ -25,10 +24,7 @@ $password = $_POST['password'];
 
 $sql = "SELECT * FROM users WHERE `phone_number` = " . $phone_number . ";"
 
-$result = mysqli_query($conn, $sql);
+//$result = mysqli_query($conn, $sql);
 
-$num_rows = mysqli_num_rows($result);
-
-echo "number of rows " . $num_rows;
 
 ?>
