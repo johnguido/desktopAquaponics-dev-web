@@ -20,4 +20,12 @@ if ($conn){
     echo "Connected to database!";
 }
 
+$phone_number = $_POST['phone_number'];
+$password = $_POST['password'];
+
+if ($result = mysqli_query($$conn, "SELECT * FROM users WHERE `phone_number` = " . $phone_number . ";")) {
+    echo "Returned rows are: " . mysqli_num_rows($result);
+    // Free result set
+    mysqli_free_result($result);
+}
 ?>
