@@ -12,8 +12,8 @@ $conn = "";
 
 $conn = mysqli_connect($db_server, $db_user, $db_pass, $db_name);;
 
-
 $phone_number = $_POST['phone_number'];
 $password = $_POST['password'];
 
+echo phpinfo();
 ?>
